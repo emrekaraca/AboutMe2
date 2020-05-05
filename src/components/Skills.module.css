@@ -62,7 +62,7 @@ ul {
   margin: 40px 0;
 }
 
-li {
+.toolList {
   display: inline-block;
   width: 120px;
   padding: 16px 16px;

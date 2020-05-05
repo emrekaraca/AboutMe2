@@ -51,7 +51,7 @@ class Skills extends React.Component {
           </div>
           <ul className={styles.tools}>
             {this.state.skills.map(item => (
-              <li>{item.skill}</li>
+              <li className={styles.toolList}>{item.skill}</li>
             ))}
           </ul>
         </div>
