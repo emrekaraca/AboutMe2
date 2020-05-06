@@ -11,7 +11,7 @@ const Nav = () => {
             About Me
           </li>
           <li>
-            My Projects
+            Skills
           </li>
           <li>
             Contact

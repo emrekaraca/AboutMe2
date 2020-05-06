@@ -6,6 +6,7 @@ import Showcase from "./components/Showcase"
 import Skills from "./components/Skills";
 import AboutMe from "./components/AboutMe";
 import Nav from "./components/Nav";
+import ContactMe from "./components/ContactMe"
 
 export default function App() {
   return (
@@ -13,8 +14,9 @@ export default function App() {
       <Nav />
       <Profile />
       <AboutMe />
-      <Showcase />
       <Skills />
+      <Showcase />
+      <ContactMe />
     </div>
   );
 }

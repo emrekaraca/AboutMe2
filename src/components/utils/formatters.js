@@ -1,6 +1,4 @@
-import React from "react"
-
-export default function parseTimeStamp(tdate) {
+export function parseTimeStamp(tdate) {
     var system_date = new Date(Date.parse(tdate));
     var user_date = new Date();
     if (K.ie) {
@@ -50,3 +48,4 @@ export default function parseTimeStamp(tdate) {
       ie: a.match(/MSIE\s([^;]*)/),
     };
   })();
+  

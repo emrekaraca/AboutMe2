@@ -1,13 +1,25 @@
 import React from "react";
-import styles from "./Profile.module.css";
+import styled from 'styled-components'
+// import styles from "../styles.css"
+
+
+const Img = styled.div`
+grid-column: 4/7;
+grid-row: 1/5;
+background-image: url("https://i.imgur.com/lvGFsuZ.png");
+background-size: 70%;
+background-repeat: no-repeat;
+background-position: center;
+`
+
 
 export default function Profile() {
   return (
-    <div className={styles.profile}>
-      <div className={styles.container}>
-        <h1 className={styles.title}>Hello ! I am Dasom Won</h1>
-        <h2 className={styles.subTitle}>Front-end Developer</h2>
-        <p className={styles.text}>
+    <div className="profile">
+      <div className="container bottomLine">
+      <h1 className="title left">Hello ! I am Dasom Won</h1>
+        <h2 className="subTitle left">Front-end Developer</h2>
+        <p className="text left">
           Open and bright-minded, a front-end developer with a great passion for
           web development. Having boundless enthusiasm for learning new
           languages to communicate with machines and the people, self-taught for
@@ -23,8 +35,8 @@ export default function Profile() {
           than actual design. That was the moment I made up my mind to become a
           front-end developer. */}
         </p>
-        <div className={styles.img} />
-        <button className={styles.button}>Download CV</button>
+        <Img></Img>
+        <button className="basicButton left-start">CV Download</button>
       </div>
     </div>
   );

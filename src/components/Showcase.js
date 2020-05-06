@@ -1,38 +1,19 @@
 import React, { useEffect, useState } from "react";
-import styles from "./Showcase.module.css"
-import { parseTimeStamp } from "./formatters"
-
-const GITHUB_API = "https://api.github.com/users/wondasom/events"
+import GithubFeed from "./GithubFeed"
 
 
 const  Showcase = () => {
-    const [data, setData] = useState([]);
-    useEffect(() => {
-      async function fetchData() {
-        const response = await fetch(GITHUB_API);
-        const data = await response.json();
-        setData(data);
-      }
-      fetchData();
-    }, []);
 
     return (
-      <div className={styles.container}>
-        <h1 className={styles.title}>My Projects</h1>
-        <h2 className={styles.subTitle}>Here are some of my ongoing projects</h2>
-        <p className={styles.text}>
+      <div className="container bottomLine">
+        <h1 className="title left">My Projects</h1>
+        <h2 className="subTitle left">Here are some of my ongoing projects</h2>
+        {/* <p className="text left">
             You can see more on my Github or Behance
-        </p>
-        {/* <div className={styles.img} /> */}
-        
-        {/* <div className={styles.caseContainer}>
-            {data.map(data=>(
-                <p className={styles.repoDescription}>{data.repo.name}</p>
-               
-            ))}
-        </div> */}
+        </p> */}
+        <GithubFeed />
 
-        <button className={styles.button}>View All Projects</button>
+        <a className="basicButton left-start"  href="https://github.com/wondasom?tab=repositories" target="_blank" rel="noopener noreferrer">View All</a>
       </div>
     )
 }
