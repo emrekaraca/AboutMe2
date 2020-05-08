@@ -19,13 +19,13 @@ const Nav = () => {
         </ul>
         <ul className={styles.link}>
           <li>
-            <a href="https://github.com/wondasom">Github</a>
+            <a href="https://github.com/wondasom" target="_blank" rel="noopener noreferrer">Github</a>
           </li>
           <li>
-            <a href="https://www.behance.net/wondasom">Behance</a>
+            <a href="https://www.behance.net/wondasom" target="_blank" rel="noopener noreferrer" >Behance</a>
           </li>
           <li>
-            <a className={styles.linkedIn} href="https://www.linkedin.com/in/wondasom/">LinkedIn</a>
+            <a className={styles.linkedIn} href="https://www.linkedin.com/in/wondasom/" target="_blank" rel="noopener noreferrer" >LinkedIn</a>
           </li>
         </ul>
       </nav>

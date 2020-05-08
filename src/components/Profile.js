@@ -13,11 +13,22 @@ background-position: center;
 `
 
 
+const Emoji = styled.span`
+  font-size: 30px;
+  padding: 0 7px;
+  position: relative;
+  bottom: -2px;
+  letter-spacing: 4px;
+`;
+
+
+
+
 export default function Profile() {
   return (
     <div className="profile">
       <div className="container bottomLine">
-      <h1 className="title left">Hello ! I am Dasom Won</h1>
+      <h1 className="title left">Hello ! I am Dasom Won<Emoji>🇰🇷🇩🇪</Emoji></h1>
         <h2 className="subTitle left">Front-end Developer</h2>
         <p className="text left">
           Open and bright-minded, a front-end developer with a great passion for

@@ -30,12 +30,26 @@ const Img = styled.div`
   background-position: center;
 `;
 
+const Emoji = styled.span`
+  font-size: 28px;
+  padding: 0 7px;
+  position: relative;
+  bottom: 3px;
+  letter-spacing: 4px;
+`;
+
+
 
 const thingsList = [
   {
     emoji: "👩🏻‍💻",
     label: "developer",
     sentence: "I am a Front-end developer."
+  },
+  {
+    emoji: "🇩🇪",
+    label: "Germany",
+    sentence: "I am based in Berlin, Germany."
   },
   {
     emoji: "👩🏻‍🎓",
@@ -82,7 +96,7 @@ export default function AboutMe() {
   return (
     <div className="aboutMe">
       <div className="container">
-        <h1 className="title right">About Me</h1>
+        <h1 className="title right">About Me<Emoji>✔️</Emoji></h1>
         <h2 className="subTitle right">Everything is true. Execept one thing!</h2>
         <p className="text right">
         <ul >

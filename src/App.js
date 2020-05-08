@@ -10,6 +10,7 @@ import ContactMe from "./components/ContactMe"
 
 export default function App() {
   return (
+
     <div className="App">
       <Nav />
       <Profile />
@@ -18,5 +19,6 @@ export default function App() {
       <Showcase />
       <ContactMe />
     </div>
+
   );
 }
