@@ -17,7 +17,7 @@ const ContactMe = () => {
     }
 
     return(
-        <div className="contactMe">
+        <div className="contactMe" id="contactMe">
             <div className="container">
                 <h1 className="title left">Contact Me<Emoji>📬</Emoji></h1>
                 <h2 className="subTitle left">I'll look forward to hearing from you!</h2>

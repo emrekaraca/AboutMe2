@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Nav.module.css";
+import {Link} from "react-scroll";
 
 const Nav = () => {
   return (
@@ -7,15 +8,36 @@ const Nav = () => {
       <nav className={styles.container}>
         <div className={styles.logo} />
         <ul className={styles.nav}>
-          <li>
-            About Me
-          </li>
-          <li>
-            Skills
-          </li>
-          <li>
-            Contact
-          </li>
+          <Link
+            className={styles.scrollLink}
+            activeClass="active"
+            to="aboutMe"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}>
+              About Me
+          </Link>
+          <Link
+            className={styles.scrollLink}
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}>
+              Skills
+          </Link>
+          <Link
+            className={styles.scrollLink}
+            activeClass="active"
+            to="contactMe"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}>
+              Contact Me
+          </Link>
         </ul>
         <ul className={styles.link}>
           <li>

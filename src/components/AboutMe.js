@@ -94,7 +94,7 @@ export default function AboutMe() {
   const [things, setThings] = useState(thingsList)
 
   return (
-    <div className="aboutMe">
+    <div className="aboutMe" id="aboutMe">
       <div className="container">
         <h1 className="title right">About Me<Emoji>✔️</Emoji></h1>
         <h2 className="subTitle right">Everything is true. Execept one thing!</h2>

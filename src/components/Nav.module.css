@@ -33,7 +33,7 @@
     grid-column: 3/5;
 }
 
-.nav li {
+.nav .scrollLink {
     text-decoration: inherit;
     margin-left: 30px;
     font-size: 16px;
@@ -43,7 +43,7 @@
 }
 
 
-.nav li:hover{
+.nav .scrollLink:hover{
     transition: all 0.3s ease 0s;
     color: #48bea2;
 }

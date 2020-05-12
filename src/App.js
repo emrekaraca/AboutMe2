@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 
+
 import Profile from "./components/Profile";
 import Showcase from "./components/Showcase"
 import Skills from "./components/Skills";

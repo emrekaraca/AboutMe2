@@ -75,7 +75,7 @@ class Skills extends React.Component {
   };
   render() {
     return (
-      <div className="Skills">
+      <div className="Skills" id="skills">
         <div className="container">
           <h1 className="title alignCenter">
             <Emoji>
