@@ -34,6 +34,9 @@ const ContactMe = () => {
 				<h2 className='subTitle left'>
 					I'll look forward to hearing from you!
 				</h2>
+
+                {/* helpful reference: https://blog.mailtrap.io/react-contact-form/ 
+                https://www.youtube.com/watch?v=hPS7LUW7SlA */}
 				<div className='inputContainer left-start'>
 					<div className='inputName '>
 						<label className='subTitle' for='name'>
