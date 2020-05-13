@@ -35,16 +35,7 @@ export default function Profile() {
           web development. Having boundless enthusiasm for learning new
           languages to communicate with machines and the people, self-taught for
           a while since 2018, now being intensely taught from code masters at
-          ReDI School.
-          {/* In college, I majored International Studies -
-          specifically International Relations. I liked what I learned and I was
-          good at it. I was expected to continue my studies going to Master -
-          and I didn't. I wanted to do something more practical and have more
-          tangible skills. So I started to design. I learned editorial design,
-          which led me to move onto web design. In the web design course I took,
-          soon I realized that I feel much more comfortable with doing markup
-          than actual design. That was the moment I made up my mind to become a
-          front-end developer. */}
+          ReDI School. <br/>Made in Seoul, currently based in Berlin.
         </p>
         <Img></Img>
         <button className="basicButton left-start">CV Download</button>

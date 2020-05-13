@@ -5,9 +5,7 @@
     text-align: center;
     margin: 0px auto;
     margin-top: 40px;
-    border-bottom: 1.5px solid #1f39ca;
-    justify-content: flex-end;
-    align-items: center;
+    border-bottom: 1.5px solid #1f39ca; 
     padding-bottom: 20px;
     margin-bottom: 40px;
 }
