@@ -1,199 +1,198 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://use.typekit.net/ylj3hle.css");
 
 * {
-  margin: 0;
-  padding: 0;
-  font-size: 1rem;
-  font-weight: 100;
-  list-style: none;
-  text-decoration: none
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	font-weight: 100;
+	list-style: none;
+	text-decoration: none;
 }
 
 .App {
-  font-family: sans-serif;
-  text-align: center;
-  background-color: #fefefe;
+	font-family: sans-serif;
+	text-align: center;
+	background-color: #fefefe;
 }
 
-
 .container {
-  background-color: inherit;
-  width: 1020px;
-  display: grid;
-  grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
-  margin: 0px auto;
-  margin-bottom: 80px;
-  padding-bottom: 40px;
+	background-color: inherit;
+	width: 1020px;
+	display: grid;
+	grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+	margin: 0px auto;
+	margin-bottom: 80px;
+	padding-bottom: 40px;
 }
 
 .bottomLine {
-   border-bottom: 1.5px solid #1f39ca;
+	border-bottom: 1.5px solid #1f39ca;
 }
 
-.left{
-  grid-column: 1/4;
-  text-align: left;
+.left {
+	grid-column: 1/4;
+	text-align: left;
 }
 
-.right{
-  grid-column: 4/7;
-  text-align: right;
+.right {
+	grid-column: 4/7;
+	text-align: right;
 }
 
-.alignCenter{
-  grid-column: 3/5;
-  text-align: center;
+.alignCenter {
+	grid-column: 3/5;
+	text-align: center;
 }
 
-.left-start{
-  grid-column-start: 1;
+.left-start {
+	grid-column-start: 1;
 }
 
-.right-end{
-  grid-column-end: 7; 
+.right-end {
+	grid-column-end: 7;
 }
 
 .title {
-  font-size: 36px;
-  padding-bottom: 10px;
-  font-family: myriad-pro, sans-serif;
-  font-weight: 700;
-  color: #333;
+	font-size: 36px;
+	padding-bottom: 10px;
+	font-family: myriad-pro, sans-serif;
+	font-weight: 700;
+	color: #333;
 }
-
 
 .subTitle {
-  font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
-  color: #1f39ca;
-  font-weight: 500;
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	color: #1f39ca;
+	font-weight: 500;
 }
 
-
-.text, .thingsList{
-  color: #727272;
+.text,
+.thingsList {
+	color: #727272;
 }
 
 .text {
-  font-size: 16px;
-  padding: 60px 0;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  line-height: 1.8;
+	font-size: 16px;
+	padding: 60px 0;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	line-height: 1.8;
 }
 
-.thingsList{
-  font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  line-height: 1.8;
+.thingsList {
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	line-height: 1.8;
 }
 
-.thingsList span{
-  margin-left: 8px;
+.thingsList span {
+	margin-left: 8px;
 }
 
-.basicButton{
-  padding: 16px 20px;
-  border-radius: 4px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  background: rgb(19, 46, 193);
-  background: linear-gradient(
-  0deg,
-  rgba(19, 46, 193, 1) 0%,
-  rgba(31, 57, 202, 1) 100%
-);
-  color: #fefefe;
-  outline: none;
+.basicButton {
+	cursor: pointer;
+	padding: 16px 20px;
+	border-radius: 4px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	background: rgb(19, 46, 193);
+	background: linear-gradient(
+		0deg,
+		rgba(19, 46, 193, 1) 0%,
+		rgba(31, 57, 202, 1) 100%
+	);
+	color: #fefefe;
+	outline: none;
 }
 
-.basicButton:hover{
-  transition: all 0.3s ease 0s;
-  color: #48bea2;
+.basicButton:hover {
+	transition: all 0.3s ease 0s;
+	color: #48bea2;
 }
 
-.messageBoxWrapper{
-  background: rgb(19, 46, 193);
-  background: linear-gradient(
-  0deg,
-  rgba(19, 46, 193, 1) 0%,
-  rgba(31, 57, 202, 1) 100%
-);
-  grid-column: 1/7;
-  border-radius: 4px;
-  margin: 40px 0;
-  padding: 40px 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  text-align: left;
+.messageBoxWrapper {
+	background: rgb(19, 46, 193);
+	background: linear-gradient(
+		0deg,
+		rgba(19, 46, 193, 1) 0%,
+		rgba(31, 57, 202, 1) 100%
+	);
+	grid-column: 1/7;
+	border-radius: 4px;
+	margin: 40px 0;
+	padding: 40px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: left;
 }
 
 .messageBox {
-  padding: 10px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.6;
-  outline: none;
-  height: 120px;
-  margin-right: 40px;
-  background: inherit;
-  color: #fefefe;
-  overflow: auto;
-  border: none;
-  outline: none;
-  resize: none;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	outline: none;
+	height: 120px;
+	margin-right: 40px;
+	background: inherit;
+	color: #fefefe;
+	overflow: auto;
+	border: none;
+	outline: none;
+	resize: none;
 }
-.messageBox::placeholder{
-  color: #fefefe;
-  font-weight: 300;
-}
-
-.inputContainer{
-  margin-top: 40px;
+.messageBox::placeholder {
+	color: #fefefe;
+	font-weight: 300;
 }
 
-
-.inputName{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 12px;
+.inputContainer {
+	margin-top: 40px;
 }
 
-.inputEmail{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+.inputName {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 12px;
 }
 
-
-.inputName, .inputEmail{
-  display: grid;
-  width: 400px;
-  grid-template-columns: 60px 1fr;
-  /* border: 1px solid green; */
+.inputEmail {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
-.inputName label, .inputEmail label{
-  text-align: left;
-  padding: 3px 6px 3px 0;
+.inputName,
+.inputEmail {
+	display: grid;
+	width: 400px;
+	grid-template-columns: 60px 1fr;
+	/* border: 1px solid green; */
 }
 
-.inputName input, .inputEmail input{
-  grid-column-start: 2;
-  /* border: 2px solid orange; */
-  padding: 3px 6px;
-  font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  line-height: 1.8;
-  text-decoration: none;
-  outline: none;
+.inputName label,
+.inputEmail label {
+	text-align: left;
+	padding: 3px 6px 3px 0;
+}
+
+.inputName input,
+.inputEmail input {
+	grid-column-start: 2;
+	/* border: 2px solid orange; */
+	padding: 3px 6px;
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	line-height: 1.8;
+	text-decoration: none;
+	outline: none;
 }
