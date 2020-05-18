@@ -1,0 +1,64 @@
+.footer {
+
+	display: grid;
+	width: 1020px;
+	display: grid;
+	grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 80px;
+}
+
+.footerLink {
+
+	width: 100%;
+	grid-column: 1/7;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.twitter {
+	/* border: 1px solid orange; */
+	width: 32px;
+	height: 32px;
+	margin-left: 20px;
+	background-image: url("https://i.imgur.com/KcAThfl.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+.github {
+	/* border: 1px solid red; */
+	width: 32px;
+	height: 32px;
+    margin-left: 20px;
+    background-image: url("https://i.imgur.com/GfS5ko5.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.behance {
+	/* border: 1px solid red; */
+	width: 40px;
+	height: 36px;
+    margin-left: 20px;
+    background-image: url("https://i.imgur.com/mhfrCpu.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.linkedin {
+	/* border: 1px solid red; */
+	width: 32px;
+	height: 32px;
+    margin-left: 20px;
+    background-image: url("https://i.imgur.com/8xhHxXh.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
